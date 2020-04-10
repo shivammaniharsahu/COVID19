@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
       <title>JavaScript Pie Chart</title>
 
@@ -13,6 +13,27 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
 <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
+
+<style src="https://fonts.googleapis.com/css?family=Montserrat"></style>
+
+
+<!-- /*****faq******/ -->
+<link rel="apple-touch-icon" type="image/png" href="https://static.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png">
+<meta name="apple-mobile-web-app-title" content="CodePen">
+<link rel="shortcut icon" type="image/x-icon" href="https://static.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico">
+<link rel="mask-icon" type="" href="https://static.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111">
+
+
+
+<!-- end -->
+
+
+<style src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"></style>
+<style src="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css"></style>
+
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
       <script src="https://code.jquery.com/jquery-3.3.1.min.js"
@@ -22,7 +43,7 @@
 <style type="text/css">
 
 html, body {
-  text-align: center;
+  /*text-align: center;*/
   margin-top: 10px;
     max-width: 100%;
     overflow-x: hidden;
@@ -140,17 +161,275 @@ html, body {
 }
 
 .btn-hover.color-1 {
-    background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
-    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+     background-image: linear-gradient(to right, #29323c, #485563, #2b5876, #4e4376);
+    box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
 }
+
+
+
+#countryy{
+  width: 200px; height: 55px;
+  border-radius: 50px; font-size: 16px;
+    font-weight: 600;
+  margin: 20px;text-align: center;color: white; background-image: linear-gradient(to right, #29323c,  #4e4376);
+    box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+}
+
+option{
+ font-size: 16px;
+    font-weight: 600;text-align: center;color: black;
+}
+
+
+
+/*****************faq's style**********/
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #34495e;
+  color: #fff;
+}
+h1 {
+  text-align: center;
+  margin: 2rem 0;
+  font-size: 2.5rem;
+}
+
+.accordion {
+  width: 90%;
+  max-width: 1000px;
+  margin: 2rem auto;
+}
+.accordion-item {
+  background-color: #fff;
+  color: #111;
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.25);
+}
+.accordion-item-header {
+  padding: 0.5rem 3rem 0.5rem 1rem;
+  min-height: 3.5rem;
+  line-height: 1.25rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+.accordion-item-header::after {
+  content: "\002B";
+  font-size: 2rem;
+  position: absolute;
+  right: 1rem;
+}
+.accordion-item-header.active::after {
+  content: "\2212";
+}
+.accordion-item-body {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.accordion-item-body-content {
+  padding: 1rem;
+  line-height: 1.5rem;
+  border-top: 1px solid;
+  border-image: linear-gradient(to right, transparent, #34495e, transparent) 1;
+}
+
+@media(max-width:767px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+
+
+/**********footer*********/
+.site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
+
 </style>
+
+
+
 
 
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 
      <script>
-
-
+ window.console = window.console || function(t) {};
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
 
 /******************By default*********/
 
@@ -211,7 +490,7 @@ function drawChart() {
 ]);
 
   // Optional; add a title and set the width and height of the chart
-  var options = {'title':'Graphical Representation of COVID19', 'width':330, 'height':300};
+  var options = {'title':'Graphical Representation of COVID19', 'width':290, 'height':300};
 
   // Display the chart inside the <div> element with id="piechart"
   var chart = new google.visualization.PieChart(document.getElementById('piechart'));
@@ -248,7 +527,10 @@ function drawChart() {
       var cou;
       function fax()
       {
-            cou=document.getElementById('countryy').value;
+            var e=document.getElementById('countryy');
+
+           var cou = e.options[e.selectedIndex].text;
+           // alert(cou);
             
       
      var settings = {
@@ -304,7 +586,7 @@ function drawChart() {
 ]);
 
   // Optional; add a title and set the width and height of the chart
-  var options = {'title':'Graphical Representation of COVID19', 'width':350, 'height':300};
+  var options = {'title':'Graphical Representation of COVID19', 'width':290, 'height':300};
 
   // Display the chart inside the <div> element with id="piechart"
   var chart = new google.visualization.PieChart(document.getElementById('piechart'));
@@ -328,20 +610,81 @@ function drawChart() {
 
 
 
+//****nav bar***/
+$(document).on('click','.navbar-collapse.in',function(e) {
+    if( $(e.target).is('a') && $(e.target).attr('class') != 'dropdown-toggle' ) {
+        $(this).collapse('hide');
+    }
+}); /* makes it so that submenus and collapsed menus on phones disappear on click.
+the default bootstrap behaviour is to keep visible on click, which sucks */
+
+
+
      </script>
     
   </head>
   <body >
  
-  <input class="input" id="countryy" placeholder="Enter country" type="text">
+
+<!-- Navigation Bar -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" >
+
+<div class="navbar navbar-default navbar-fixed-top" role="navigation" style="background-color: black;color: white;font-weight: bold;">
+  <div class="container">
+    <div class="navbar-header"></div>
+      <!-- responsive button-->
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span> <!-- for screen readers -->
+        <span class="icon-bar"></span> <!-- the 3 horz bars -->
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button>
+    <a href="#" class="navbar-brand" style="color: white;font-weight: bold;">COVID'19</a>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav navbar-right"> <!-- align links right -->
+        <li class="active"class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><a href="#">HOME</a></li>
+        <li class=""class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><a href="#con">CONTACT</a></li>
+        <li class=""class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><a href="#faqq">FAQ'S</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">DO'S<b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li class="dropdown-header">admin</li>
+           <!--  <li><a href="#">stuff</a></li>
+            <li><a href="#">stuff2</a></li> -->
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+<!-- End -->
+
+
+
+  <!-- <input class="input" id="countryy" placeholder="Enter country" type="text">
   <div class="buttons">
     <button class="btn-hover color-1"  onclick="fax()">Show</button>
-  </div>
+  </div> -->
 <section id="statistic" class="statistic-section one-page-section">
         <div class="container">
             <div class="row text-center">
 
              <div class="row">
+
+
+
+
+
+           
+
+
+
+
+
+
+
               <div class="col-lg-6">
                 <div class="col-xs-12 col-md-4">
                     <div class="counter">
@@ -370,11 +713,11 @@ function drawChart() {
                 </div>
                 <div class="col-xs-12 col-md-12">
                     <div class="counter">
-                        <h2 class="timer count-title count-number" id="country">Country</h2>
+                        <h2 class="timer count-title count-number" style="font-size: 18px;" id="country">Country</h2>
                         <div class="stats-line-black"></div>
                     </div>
                      <div class="counter">
-                        <h2 class="timer count-title count-number" id="latest">Latest</h2>
+                        <h2 class="timer count-title count-number" style="font-size: 18px;" id="latest">Latest</h2>
                         <div class="stats-line-black"></div>
                     </div>
                 </div>
@@ -385,6 +728,35 @@ function drawChart() {
                     <div id="piechart"></div>
                 </div>
               </div>
+ <div class="col-lg-6 col-md-12 col-sm-12">
+              <select id="countryy" style="overflow: scroll;" >
+
+  <option value="0">Select Country</option>
+  <option value="1">India</option>
+  <option value="2">China</option>
+  <option value="3">Australia</option>
+  <option value="4">Italy</option>
+  <option value="5">Japan</option>
+  <option value="6">Russia</option>
+  <option value="7">Israil</option>
+  <option value="8">Pakistan</option>
+  <option value="9">Afganistan</option>
+  <option value="10">England</option>
+  <option value="11">Russia</option>
+  <option value="12">US</option>
+  <option value="13">Netherlands</option>
+  <option value="13">Iran</option>
+  <option value="13">Spain</option>
+</select>
+
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12">
+              
+               <div class="buttons">
+    <a href="#"><button class="btn-hover color-1"   onclick="fax()">Show Data</button></a>
+  </div>
+            </div>
+
             </div>
         </div>
     </section>
@@ -392,5 +764,456 @@ function drawChart() {
 
 
 
+<div id="faqq" class="row" style="text-align: center;">
+  <div class="col-sm-12 col-md-12 col-lg-12">
+    <a href="adv.pdf" target=" "><button class="btn-hover color-1" style="text-align: center;">Show Advisory</button></a>
+  </div>
+</div>
+ 
+
+
+<!-- FAQ'S -->
+<h1 >FAQ</h1>
+<div class="accordion">
+
+  <div class="accordion-item">
+    <div class="accordion-item-header">
+      What is a coronavirus?
+    </div>
+    <div class="accordion-item-body">
+      <div class="accordion-item-body-content">
+       Coronaviruses are a large family of viruses which may cause illness in animals or humans.  In humans, several coronaviruses are known to cause respiratory infections ranging from the common cold to more severe diseases such as Middle East Respiratory Syndrome (MERS) and Severe Acute Respiratory Syndrome (SARS). The most recently discovered coronavirus causes coronavirus disease COVID-19.
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <div class="accordion-item-header">
+     What is COVID-19?
+    </div>
+    <div class="accordion-item-body">
+      <div class="accordion-item-body-content">
+       COVID-19 is the infectious disease caused by the most recently discovered coronavirus. This new virus and disease were unknown before the outbreak began in Wuhan, China, in December 2019.
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <div class="accordion-item-header">
+     Is COVID-19 the same as SARS?
+    </div>
+    <div class="accordion-item-body">
+      <div class="accordion-item-body-content">
+       No. The virus that causes COVID-19 and the one that caused the outbreak of Severe Acute Respiratory Syndrome (SARS) in 2003 are related to each other genetically, but the diseases they cause are quite different. SARS was more deadly but much less infectious than COVID-19. There have been no outbreaks of SARS anywhere in the world since 2003.
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <div class="accordion-item-header">
+    Can the virus that causes COVID-19 be transmitted through the air?
+    </div>
+    <div class="accordion-item-body">
+      <div class="accordion-item-body-content">
+       Studies to date suggest that the virus that causes COVID-19 is mainly transmitted through contact with respiratory droplets rather than through the air. 
+      </div>
+    </div>
+  </div>
+
+   <div class="accordion-item">
+    <div class="accordion-item-header">
+    Can COVID-19 be caught from a person who has no symptoms?
+    </div>
+    <div class="accordion-item-body">
+      <div class="accordion-item-body-content">
+       The main way the disease spreads is through respiratory droplets expelled by someone who is coughing. The risk of catching COVID-19 from someone with no symptoms at all is very low. However, many people with COVID-19 experience only mild symptoms. This is particularly true at the early stages of the disease. It is therefore possible to catch COVID-19 from someone who has, for example, just a mild cough and does not feel ill.
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <div class="accordion-item-header">
+   Can I catch COVID-19 from the feces of someone with the disease?
+    </div>
+    <div class="accordion-item-body">
+      <div class="accordion-item-body-content">
+       The risk of catching COVID-19 from the feces of an infected person appears to be low. While initial investigations suggest the virus may be present in feces in some cases, spread through this route is not a main feature of the outbreak. WHO is assessing ongoing research on the ways COVID-19 is spread and will continue to share new findings. Because this is a risk, however, it is another reason to clean hands regularly, after using the bathroom and before eating. 
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <div class="accordion-item-header">
+     What are the symptoms of COVID-19?
+    </div>
+    <div class="accordion-item-body">
+      <div class="accordion-item-body-content">
+       The most common symptoms of COVID-19 are:
+       <ul><li>
+🤒 fever</li><li>
+😴 tiredness</li><li>
+💨 dry cough</li></ul>
+
+Some patients may have aches and pains, nasal congestion, runny nose, sore throat or diarrhea. 
+
+These symptoms are usually mild and begin gradually. Some people become infected but don’t develop any symptoms and don't feel unwell. 
+
+Most people (about 80%) recover from the disease without needing special treatment. Around 1 out of every 6 people who gets COVID-19 becomes seriously ill and develops difficulty breathing. 
+
+Older people, and those with underlying medical problems like high blood pressure, heart problems or diabetes, are more likely to develop serious illness. 
+
+*People with fever, cough and difficulty breathing should seek medical attention.*
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="accordion-item">
+    <div class="accordion-item-header">
+     How does COVID-19 spread?
+    </div>
+    <div class="accordion-item-body">
+      <div class="accordion-item-body-content"><ul><li>
+        🤧 People can catch COVID-19 from others who have the virus. 
+</li><li>
+💦 The disease can spread from person to person through small droplets from the nose or mouth which are spread when a person with COVID-19 coughs or exhales. 
+</li><li>
+🥄 These droplets land on objects and surfaces around the person. 
+</li><li>
+👈 Other people then catch COVID-19 by touching these objects or surfaces, then touching their eyes, nose or mouth. 
+</li><li>
+↔️ People can also catch COVID-19 if they breathe in droplets from a person with COVID-19 who coughs out or exhales droplets. This is why it is important to stay more than 1 meter (3 feet) away from a person who is sick.
+</li><li>
+WHO is assessing ongoing research on the ways COVID-19 is spread and will continue to share updated findings.
+</li><li>
+      </div>
+    </div>
+  </div>
+
+<div class="accordion-item">
+    <div class="accordion-item-header">
+   Can humans become infected with the COVID-19 from an animal source?
+    </div>
+    <div class="accordion-item-body">
+      <div class="accordion-item-body-content">
+      Coronaviruses are a large family of viruses that are common in animals. Occasionally, people get infected with these viruses which may then spread to other people. For example, SARS-CoV was associated with civet cats and MERS-CoV is transmitted by dromedary camels. Possible animal sources of COVID-19 have not yet been confirmed.<br>
+      To protect yourself, such as when visiting live animal markets, avoid direct contact with animals and surfaces in contact with animals. Ensure good food safety practices at all times. Handle raw meat, milk or animal organs with care to avoid contamination of uncooked foods and avoid consuming raw or undercooked animal products.
+      </div>
+    </div>
+  </div>
+
+ <div class="accordion-item">
+    <div class="accordion-item-header">
+   Can I catch COVID-19 from my pet?
+    </div>
+    <div class="accordion-item-body">
+      <div class="accordion-item-body-content">
+     There is no evidence that a dog, cat or any pet can transmit COVID-19. COVID-19 is mainly spread through droplets produced when an infected person coughs, sneezes or speaks. To protect yourself clean your hands frequently and thoroughly. 
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <div class="accordion-item-header">
+   How long does the virus survive on surfaces?
+    </div>
+    <div class="accordion-item-body">
+      <div class="accordion-item-body-content">
+     It is not certain how long the virus that causes COVID-19 survives on surfaces, but it seems to behave like other coronaviruses. Studies suggest that coronaviruses (including preliminary information on the COVID-19 virus) may persist on surfaces for a few hours or up to several days. This may vary under different conditions (e.g. type of surface, temperature or humidity of the environment).
+<br>
+If you think a surface may be infected, clean it with simple disinfectant to kill the virus and protect yourself and others. Clean your hands with an alcohol-based hand rub or wash them with soap and water. Avoid touching your eyes, mouth, or nose.
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <div class="accordion-item-header">
+   Is it safe to receive a package from any area where COVID-19 has been reported?
+    </div>
+    <div class="accordion-item-body">
+      <div class="accordion-item-body-content">
+    Yes. The likelihood of an infected person contaminating commercial goods is low and the risk of catching the virus that causes COVID-19 from a package that has been moved, travelled, and exposed to different conditions and temperature is also low.
+      </div>
+    </div>
+  </div>
+
+<div class="accordion-item">
+    <div class="accordion-item-header">
+   
+💊 Are antibiotics effective in preventing or treating COVID-19?
+    </div>
+    <div class="accordion-item-body">
+      <div class="accordion-item-body-content">
+    No. Antibiotics do not work against viruses, they only work on bacterial infections. COVID-19 is caused by a virus, so antibiotics do not work. Antibiotics should not be used as a means of prevention or treatment of COVID-19. They should only be used as directed by a physician to treat a bacterial infection.
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <div class="accordion-item-header">
+   🧪 Are there any medicines or therapies that can prevent or cure COVID-19?
+
+    </div>
+    <div class="accordion-item-body">
+      <div class="accordion-item-body-content">
+    While some western, traditional or home remedies may provide comfort and alleviate symptoms of COVID-19, there is no evidence that current medicine can prevent or cure the disease. WHO does not recommend self-medication with any medicines, including antibiotics, as a prevention or cure for COVID-19. However, there are several ongoing clinical trials that include both western and traditional medicines. WHO will continue to provide updated information as soon as clinical findings are available.
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <div class="accordion-item-header">
+   
+💉 Is there a vaccine, drug or treatment for COVID-19?
+
+    </div>
+    <div class="accordion-item-body">
+      <div class="accordion-item-body-content">
+    Not yet. To date, there is no vaccine and no specific antiviral medicine to prevent or treat COVID-2019. However, those affected should receive care to relieve symptoms. People with serious illness should be hospitalized. Most patients recover thanks to supportive care.
+<br>
+Possible vaccines and some specific drug treatments are under investigation. They are being tested through clinical trials. WHO is coordinating efforts to develop vaccines and medicines to prevent and treat COVID-19.
+<br>
+The most effective ways to protect yourself and others against COVID-19 are to frequently clean your hands, cover your cough with the bend of elbow or tissue, and maintain a distance of at least 1 meter (3 feet) from people who are coughing or sneezing. 
+      </div>
+    </div>
+  </div>
+
+
+  <div class="accordion-item">
+    <div class="accordion-item-header">
+   What can I do to protect myself and prevent the spread of disease?
+    </div>
+    <div class="accordion-item-body">
+      <div class="accordion-item-body-content">
+    <h3>Protection measures for everyone</h3>
+<p>
+ℹ️ Stay aware of the latest information on the COVID-19 outbreak, available on the WHO website and through your national and local public health authority. Many countries around the world have seen cases of COVID-19 and several have seen outbreaks. Authorities in China and some other countries have succeeded in slowing or stopping their outbreaks. However, the situation is unpredictable so check regularly for the latest news.
+</p>
+<b>You can reduce your chances of being infected or spreading COVID-19 by taking some simple precautions:</b>
+<ul><li>
+🧼 *Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water.*
+</li><li>
+_Why?_ Washing your hands with soap and water or using alcohol-based hand rub kills viruses that may be on your hands.
+</li><li>
+↔️ *Maintain at least 1 metre (3 feet) distance between yourself and anyone who is coughing or sneezing.*
+</li><li>
+_Why?_  When someone coughs or sneezes they spray small liquid droplets from their nose or mouth which may contain virus. If you are too close, you can breathe in the droplets, including the COVID-19 virus if the person coughing has the disease.
+</li><li>
+🚫 *Avoid touching eyes, nose and mouth*
+</li><li>
+_Why?_ Hands touch many surfaces and can pick up viruses. Once contaminated, hands can transfer the virus to your eyes, nose or mouth. From there, the virus can enter your body and can make you sick.
+</li><li>
+🤧 *Make sure you, and the people around you, follow good respiratory hygiene. This means covering your mouth and nose with your bent elbow or tissue when you cough or sneeze. Then dispose of the used tissue immediately.*
+</li><li>
+_Why?_ Droplets spread virus. By following good respiratory hygiene you protect the people around you from viruses such as cold, flu and COVID-19.
+</li><li>
+🏠 *Stay home if you feel unwell. If you have a fever, cough and difficulty breathing, seek medical attention and call in advance. Follow the directions of your local health authority.*
+</li><li>
+_Why?_ National and local authorities will have the most up to date information on the situation in your area. Calling in advance will allow your health care provider to quickly direct you to the right health facility. This will also protect you and help prevent spread of viruses and other infections.
+</li><li>
+🧳 *Keep up to date on the latest COVID-19 hotspots (cities or local areas where COVID-19 is spreading widely). If possible, avoid traveling to places  – especially if you are an older person or have diabetes, heart or lung disease.*
+</li><li>
+_Why?_ You have a higher chance of catching COVID-19 in one of these areas.</li></ul>
+      </div>
+    </div>
+  </div>
+
+<div class="accordion-item">
+    <div class="accordion-item-header">
+   
+ 😷 Should I wear a mask to protect myself?
+
+    </div>
+    <div class="accordion-item-body">
+      <div class="accordion-item-body-content">
+    Only wear a mask if you are ill with COVID-19 symptoms (especially coughing) or looking after someone who may have COVID-19. Disposable face mask can only be used once. If you are not ill or looking after someone who is ill then you are wasting a mask. There is a world-wide shortage of masks, so WHO urges people to use masks wisely.
+<br>
+WHO advises rational use of medical masks to avoid unnecessary wastage of precious resources and mis-use of masks.
+<br>
+The most effective ways to protect yourself and others against COVID-19 are to frequently clean your hands, cover your cough with the bend of elbow or tissue and maintain a distance of at least 1 meter (3 feet) from people who are coughing or sneezing. 
+
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <div class="accordion-item-header">
+   
+ 
+🚮 How to put on, use, take off and dispose of a mask?
+
+    </div>
+    <div class="accordion-item-body">
+      <div class="accordion-item-body-content"><br>
+    1. Remember, a mask should only be used by health workers, care takers, and individuals with respiratory symptoms, such as fever and cough.<br>
+2. Before touching the mask, clean hands with an alcohol-based hand rub or soap and water<br>
+3. Take the mask and inspect it for tears or holes.<br>
+4. Orient which side is the top side (where the metal strip is).<br>
+5. Ensure the proper side of the mask faces outwards (the coloured side).<br>
+6. Place the mask to your face. Pinch the metal strip or stiff edge of the mask so it moulds to the shape of your nose.<br>
+7. Pull down the mask’s bottom so it covers your mouth and your chin.<br>
+8. After use, take off the mask; remove the elastic loops from behind the ears while keeping the mask away from your face and clothes, to avoid touching potentially contaminated surfaces of the mask.<br>
+9. Discard the mask in a closed bin immediately after use.<br>
+10. Perform hand hygiene after touching or discarding the mask – Use alcohol-based hand rub or, if visibly soiled, wash your hands with soap and water.
+      </div>
+    </div>
+  </div>
+
+
+  <div class="accordion-item">
+    <div class="accordion-item-header">
+   
+ Is there anything I should not do?
+
+    </div>
+    <div class="accordion-item-body">
+      <div class="accordion-item-body-content"><br>
+    The following measures ARE NOT effective against COVID-19 and can be harmful:
+<ul><li>
+🚭Smoking</li><li>
+😷Wearing multiple masks</li><li>
+💊Taking antibiotics</li></ul>
+In any case, if you have fever, cough and difficulty breathing seek medical care early to reduce the risk of developing a more severe infection and be sure to share your recent travel history with your health care provider.
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <div class="accordion-item-header">
+   
+ What are some parenting tips in the time of COVID-19?
+
+    </div>
+    <div class="accordion-item-body">
+      <div class="accordion-item-body-content"><br>
+   
+👨‍👦 Home with the kids? Try taking 20 minutes a day doing something that they choose – play a game or read with them. Quality time will make them feel safe and loved.  <br>
+
+💕Praise is powerful. Try praising your child or teenager for something they have done well.  They may not show their appreciation, but you’ll see them doing that good thing again. <br>
+
+🗓Routine up! A structured day helps kids feel secure and makes it easier to manage them. Try making a timetable, with schoolwork, games, free time, exercise, and handwashing.  
+<br>
+🧘🏿‍♂Kids at home driving you crazy? Feeling like you are going to scream? Give yourself a 1-minute pause. Breathe in and out five times. Then respond. <br>
+
+💆🏻‍♂Crowded house? Stressed out? Share your feelings. Take a break. Looking after kids 24-7 during COVID-19 isn’t easy. Remind yourself of what you did well today. Think about the good moments. <br>
+
+Take care of yourself so you can take care of your children. <br>
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <div class="accordion-item-header">
+   Coping with stress during COVID-19
+
+    </div>
+    <div class="accordion-item-body">
+      <div class="accordion-item-body-content"><br>
+   
+📞 It is normal to feel sad, stressed, confused, scared or angry during a crisis. Talking to people you trust can help. Contact your friends and family.<br>
+
+🥦  If you must stay at home, maintain a healthy lifestyle - including proper diet, sleep, exercise and social contacts with loved ones at home and by email and phone with other family and friends.<br>
+
+🚭 Don’t use smoking, alcohol or other drugs to deal with your emotions. If you feel overwhelmed, talk to a health worker or counsellor. Have a plan, where to go to and how to seek help for physical and mental health needs if required<br>
+ℹ️ Get the facts. Gather information that will help you accurately determine your risk so that you can take reasonable precautions. Find a credible source you can trust such as WHO website or, a local or state public health agency.<br>
+
+😭 Limit worry and agitation by lessening the time you and your family spend watching or listening to media coverage that you perceive as upsetting.<br>
+
+⭐️ Draw on skills you have used in the past that have helped you to manage previous life’s adversities and use those skills to help you manage your emotions during the challenging time of this outbreak.
+      </div>
+    </div>
+  </div>
+
+
+</div>
+<div id="con"></div>
+
+
+  <!-- Site footer -->
+    <footer class="site-footer" >
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <h6>About</h6>
+            <p class="text-justify">It is a basic page which will show the statics of corona virus patient live.<br>
+            Get the facts. Gather information that will help you
+accurately determine your risk so that you can take
+reasonable precautions.</p>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Categories</h6>
+            <ul class="footer-links">
+              <li><a href="https://www.who.int/">WHO WEBSITE</a></li>
+              <li><a href="https://www.mohfw.gov.in/">For Detail</a></li>
+            </ul>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Quick Links</h6>
+            <ul class="footer-links">
+              <li><a href="#">About Us</a></li>
+              <li><a href="mailto:nikhilsingh00kj@gmail.com?Subject=Hello%20again" target="_top">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved by 
+         <a href="https://github.com/AJAYKR00KJ">@jay</a>.
+            </p>
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="social-icons">
+              <li><a class="facebook" target=" " href="https://www.facebook.com/profile.php?id=100028207484220"><i class="fa fa-facebook"></i></a></li>
+              <li><a class="twitter" target=" " href="https://twitter.com/error_espiral"><i class="fa fa-twitter"></i></a></li>
+              <li><a class="dribbble" target=" " href="#"><i class="fa fa-dribbble"></i></a></li>
+              <li><a class="linkedin" target=" " href="https://www.linkedin.com/in/ajay-kumar-91798818b/"><i class="fa fa-linkedin"></i></a></li>   
+            </ul>
+          </div>
+       <div style="text-align: center;" class="col-md-12 col-sm-12 col-xs-12">
+           
+         <a href="#">Go To TOP</a>.
+          
+          </div>
+
+        </div>
+      </div>
+</footer>
+
+
+<script src="https://static.codepen.io/assets/common/stopExecutionOnTimeout-157cd5b220a5c80d4ff8e0e70ac069bffd87a61252088146915e8726e5d9f147.js"></script>
+<script id="rendered-js">
+const accordionItemHeaders = document.querySelectorAll(".accordion-item-header");
+
+accordionItemHeaders.forEach(accordionItemHeader => {
+  accordionItemHeader.addEventListener("click", event => {
+
+    // Uncomment in case you only want to allow for the display of only one collapsed item at a time!
+
+    // const currentlyActiveAccordionItemHeader = document.querySelector(".accordion-item-header.active");
+    // if(currentlyActiveAccordionItemHeader && currentlyActiveAccordionItemHeader!==accordionItemHeader) {
+    //   currentlyActiveAccordionItemHeader.classList.toggle("active");
+    //   currentlyActiveAccordionItemHeader.nextElementSibling.style.maxHeight = 0;
+    // }
+
+    accordionItemHeader.classList.toggle("active");
+    const accordionItemBody = accordionItemHeader.nextElementSibling;
+    if (accordionItemHeader.classList.contains("active")) {
+      accordionItemBody.style.maxHeight = accordionItemBody.scrollHeight + "px";
+    } else
+    {
+      accordionItemBody.style.maxHeight = 0;
+    }
+
+  });
+});
+//# sourceURL=pen.js
+    </script>
   </body>
 </html>
